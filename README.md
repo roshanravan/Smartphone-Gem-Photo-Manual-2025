@@ -130,4 +130,65 @@ Yes—if both are daylight. The problem is mixing in warm lamps or greenish tube
 Diffuse to flatten speculars, then tilt light to rake across facets so inclusions reveal without blowing highlights.
 
 **Q: My opal looks dead on camera.**  
-Use a wide beam, move the light in slow arcs, and stop when color fires. Lock that position; shoot s
+Use a wide beam, move the light in slow arcs, and stop when color fires. Lock that position; shoot stills and a short clip.
+
+**Q: How do I keep metal from looking gray?**  
+Give it an edge light. A thin bright strip (mirror/foil kicker) along the shank/prongs makes metal read “polished,” not flat.
+
+## Implementation Notes
+
+**A. Bench Layout**
+- Left: LED ring for base.  
+- Right/Rear: two floods on adjustable sockets.  
+- Overhead: diffusion sheet clipped to a frame.  
+- Front: white card under the phone lens; mirror/foil on a gooseneck.
+
+**B. Shooting SOP (printable)**
+1) Mount stone; square to lens; center culet/keel.  
+2) Turn on daylight lights only; set base exposure.  
+3) Add diffusion; kill blowouts.  
+4) Introduce reflector kick; adjust for life without lies.  
+5) Phenomena? Switch strategy (single hard point / wide beam).  
+6) Take 3 angles you can repeat tomorrow.  
+7) Label files with stone ID + angle + lighting variant.
+
+**C. Troubleshooting Ladder**
+- Looks wrong → check color temp → check diffusion → adjust kicker → reconsider angle → only then touch exposure.
+
+**D. Editing Guardrails**
+- Minor exposure/contrast, slight white-balance nudge. No “repainting” color. The win is earned in lighting, not software.
+
+## Mind Map (Mermaid)
+
+```mermaid
+mindmap
+  root((Gem Photo Playbook 2025))
+    Kit
+      Phone
+      Tripod + Geared Head
+      LED Ring + Floods
+      Diffusers
+      Reflectors
+      Phone Backer Card
+    Light
+      Daylight ~5500K
+      No mixed temps
+      Depth-of-field via photons
+    Techniques
+      Diffuse to tame glare
+      Mirror/Foil kick
+      Backlight with caution
+    Phenomena
+      Fire/Dispersion -> hard kick
+      Stars/Cat's-eye -> single point
+      Opal -> wide beam
+      Adularescence/Labradorescence -> test angles
+    Workflow
+      Square stone
+      Move lights, not stone
+      Record repeatable angles
+    Fix-It
+      Foggy -> diffuse
+      Dead sparkle -> forward kick
+      Weird color -> unify temps
+      Double stars -> kill extra lights
